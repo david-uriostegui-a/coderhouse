@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.division{
+    background-color: black;
+    border: solid black 1px;
+    width: 100%;
+    position: relative;
+}
+
+.logo {
+    width: 100px;
+    padding-left: 40px;
+}
+
+nav {
+    position: static;
+    width: 80%;
+    margin: 0% 10% 0% 10%;
+}
+
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    font-size: larger;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+li input{
+    height: 30px;
+    width: 250px;
+    padding: 10px 0px 10px 5px;
+    font-size: medium;
+    font-weight: bolder;
+}
+
+li button{
+    width: 80px;
+    height: 30px;
+    margin-right: 40px;
+    font-weight: bolder;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    position: static;
+    width: 80%;
+    margin: 20px 10% 0% 10%;
+}
+
+section{
+    padding: 20px;
+    display: flex;
+}
+
+#news{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+h2{
+    font-size: 35px;
+}
+
+#news div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#news div img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+#news div img:hover{
+    width: 320px;
+    height: 220px;
+    border-radius: 50px;
+    transition-duration: 600ms;
+}
+
+.mapouter{
+    position:relative;
+    text-align:right;
+    height:250px;
+    width:350px;
+    margin-left: 25px;
+}
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:250px;
+    width:350px;
+}
+
+#news p{
+    width: 500px;
+    text-align: justify;
+    padding-left: 20px;
+}
+
+.info{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info div{
+    width: 30%;
+    text-align: center;
+}
+
+.center{
+    border-left: solid black 2px;
+    border-right: solid black 2px;
+}
